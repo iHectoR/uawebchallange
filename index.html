@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PROALU UA Web Challange (Svidentsov)</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/global.js"></script>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/slick.css"/>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css"/>
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" href="css/ie.css"/><![endif]-->
+	<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s);
+	js.id = id;
+	js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&appId=784365968317213&version=v2.3";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<header>
+	<div class="container">
+		<a class="logo" href="#" title="PROALU Home page"><img src="img/logo.png" alt="logo"/></a>
+		<form class="language" action="#">
+			<select name="language" id="">
+				<option value="cz">CZ</option>
+				<option value="gr">GR</option>
+				<option value="en">EN</option>
+			</select>
+		</form>
+		<nav>
+			<div class="menu-toggle"><i class="fa fa-bars" onclick="openMenu();"></i></div>
+			<ul class="top-menu" id="top-menu">
+				<li>
+					<a href="#" title="Produkty">Produkty</a>
+					<div class="full-width">
+						<div class="container">
+							<ul class="sub-menu">
+								<li>
+									<a href="#" title="Rolety">
+										<span class="overlay"><span>Rolety</span></span>
+										<img class="icon" src="img/rolety.jpg" alt="Rolety"/><span class="item-title">Rolety</span></a>
+								</li>
+								<li>
+									<a href="#" title="Venkovní žaluzie">
+										<span class="overlay"><span>Venkovní žaluzie</span></span>
+										<img class="icon" src="img/zaluzie.jpg" alt="Venkovní žaluzie"/><span class="item-title">Venkovní žaluzie</span></a>
+								</li>
+								<li>
+									<a href="#" title="Systémové parapety>
+										<span class="overlay"><span>Systémové parapety</span></span>
+										<img class="icon" src="img/parapety.jpg" alt="Systémové parapety"/><span class="item-title">Systémové parapety</span></a>
+								</li>
+								<li>
+									<a href="#" title="Markýzy">
+										<span class="overlay"><span>Markýzy</span></span>
+										<img class="icon" src="img/markyzy.jpg" alt="Markýzy"/><span class="item-title">Markýzy</span></a>
+								</li>
+								<li>
+									<a href="#" title="Vrata">
+										<span class="overlay"><span>Vrata</span></span>
+										<img class="icon" src="img/vrata.jpg" alt="Vrata"/><span class="item-title">Vrata</span></a>
+								</li>
+								<li>
+									<a href="#" title="Sítě proti hmyzu">
+										<span class="overlay"><span>Sítě proti hmyzu</span></span>
+										<img class="icon" src="img/hmyzu.jpg" alt="Sítě proti hmyzu"/><span class="item-title">Sítě proti hmyzu</span></a>
+								</li>
+								<li>
+									<a href="#" title="Barvy rolet a žaluzií">
+										<span class="overlay"><span>Barvy rolet a žaluzií</span></span>
+										<img class="icon" src="img/barvy.jpg" alt="Barvy rolet a žaluzií"/><span class="item-title">Barvy rolet a žaluzií</span></a>
+								</li>
+								<li>
+									<a href="#" title="Spočítejte si cenu">
+										<span class="icon"><i class="fa fa-calculator"></i></span>
+										<span class="item-title">Spočítejte si cenu</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="#" title="Konfigurátor">Konfigurátor</a></li>
+				<li><a href="#" title="novinky">novinky</a></li>
+				<li><a href="#" title="O společnosti">O	společnosti</a></li>
+				<li><a href="#" title="Kontakt">Kontakt</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="slider">
+	<div class="gradient-overlay"></div>
+	<div class="container">
+		<div class="slider-caption">
+			<h2><span>Vyrábíme pro Vás předokenní rolety</span></h2>
+			<p><span>pro zabudování v novostavbách i pro dodatečnou montáž</span></p>
+			<a href="#"><i class="fa fa-eur circle-icon" title="Garance nejlepší ceny"></i>Garance nejlepší ceny</a>
+		</div>
+	</div>
+	<div class="menu-container">
+		<div class="slider-menu-wrapper">
+			<p class="menu-title"><span>Naše produkty</span></p>
+			<ul class="slider-menu cf">
+				<li><a href="#" title="Rolety">Rolety</a></li>
+				<li><a href="#" title="Markýzy">Markýzy</a></li>
+				<li><a href="#" title="Vrata">Vrata</a></li>
+				<li><a href="#" title="Sítě proti hmyzu">Sítě proti	hmyzu</a></li>
+				<li><a href="#" title="Venkovní žaluzie">Venkovní žaluzie</a></li>
+				<li><a href="#" title="Systémové parapety">Systémové parapety</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<section class="carousel">
+	<div class="container">
+		<div class="slideshow">
+			<div class="useful-link">
+				<img class="link-img" src="img/calculator.jpg" alt=""/>
+				<div class="gradient-overlay"></div>
+				<a class="tool-link" href="#" title="Spočítejte si cenu">
+					<span class="link-title">Spočítejte si cenu</span>
+					<span class="link-desc">Jen dva kroky k vaší ceně</span></a>
+			</div>
+			<div class="useful-link">
+				<a href="#" class="label">Slevový pokaz</a>
+				<img class="link-img" src="img/product.jpg" alt=""/>
+				<div class="gradient-overlay"></div>
+				<a class="tool-link" href="#" title="Akce">
+					<span class="link-title">Akce</span>
+					<span	class="link-desc">Výhoda pro žaluzie PRO-VARIO-Z!</span></a>
+			</div>
+			<div class="useful-link">
+				<img class="link-img" src="img/config.jpg" alt=""/>
+				<div class="gradient-overlay"></div>
+				<a class="tool-link" href="#" title="Konfigurátor">
+					<span class="link-title">Konfigurátor</span>
+					<span	class="link-desc">Obarvěte si sami Váš dům</span></a>
+			</div>
+			<div class="useful-link">
+				<img class="link-img" src="img/calculator.jpg" alt=""/>
+				<div class="gradient-overlay"></div>
+				<a class="tool-link" href="#" title="Spočítejte si cenu">
+					<span class="link-title">spočítejte si cenu</span>
+					<span class="link-desc">Jen dva kroky k vaší ceně</span></a>
+			</div>
+			<div class="useful-link">
+				<a href="#" class="label">Slevový pokaz</a>
+				<img class="link-img" src="img/product.jpg" alt=""/>
+				<div class="gradient-overlay"></div>
+				<a class="tool-link" href="#" title="Akce">
+					<span class="link-title">Akce</span>
+					<span	class="link-desc">Výhoda pro žaluzie PRO-VARIO-Z!</span></a>
+			</div>
+			<div class="useful-link">
+				<img class="link-img" src="img/config.jpg" alt=""/>
+				<div class="gradient-overlay"></div>
+				<a class="tool-link" href="#" title="Konfigurátor">
+					<span class="link-title">Konfigurátor</span>
+					<span	class="link-desc">Obarvěte si sami Váš dům</span></a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="faq">
+	<div class="container">
+		<div class="row captions">
+			<div class="col col-1-2">
+				<p class="caption present"><i class="fa fa-gift circle-icon"></i>PRO-VARIO-R A PRO-VARIO-Z VÝHODNĚJI!</p>
+			</div>
+			<div class="col col-1-2">
+				<p class="caption">Barvy rolet a žaluzií do překladu VARIO… ZDARMA! </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-1-2">
+				<p><span class="question">Rolety</span> Možná přemýšlíte nad různými nabídkami na předokenní rolety od různých výrobců a prodejců a nemůžete se rozhodnout. Zkusíme Vám v tom trochu pomoci.</p>
+				<p><span class="question">Jak vybírat rolety?</span> Na trhu v ČR je několik výrobců rolet a několik desítek, možná i stovek prodejců stínící a roletové techniky. Říkáte si, je třeba kupovat rolety výhradně přímo u výrobce? Myslíme, že určitě ne. Naopak řada obchodních a montážních firem,
+					která prodává (a nevyrábí) předokenní rolety a také další stínící techniku to dělá na prvotřídní, profesionální úrovni, dokonce jsou leckdy tyto služby komplexnější a díky působení v regionu i rychlejší a levnější, než dodávka od 100 a více km vzdáleného výrobce, který by za Vámi cestoval
+					s montážní partou.</p>
+			</div>
+			<div class="col col-1-2">
+				<p><span class="question">Pro jaké rolety se tedy rozhodnout?</span> Dodavatele pro rolety vybírejte nejlépe v regionu, kde se nachází Váš dům nebo byt. Seznam regionů, ve kterých najdete nejbližšího autorizovaného prodejce rolet PROALU, roztříděných podle krajů a měst ČR, naleznete na straně
+					<a href="#" title="Spočítejte si cenu">Spočítejte si cenu</a> a <a href="#" title="Kontakt">Kontakt</a>.</p>
+				<p><span class="question">A co je výsledkem?</span> Kvalitní předokenní rolety „made by PROALU“, jsou přesně ty rolety, co jste si vybrali - profesionálně zaměřené, dodané a namontované autorizovaným prodejcem z Vašeho regionu. Prodejce je schopen zajistit díky své regionální působnosti na
+					rolety rychlý záruční nebo pozáruční servis. Bonusem navíc je jistota, že veškeré dopravní náklady spojené např. s pozáručním servisem jsou opravdu minimální.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="footer-menu-wrapper">
+		<div class="container cf">
+			<div class="left-footer">
+				<figure class="partner">
+					<img src="img/becker.jpg" alt=""/>
+					<p>s motory od německého výrobce BECKER</p>
+				</figure>
+				<div class="contacts">
+					<a href="tel:800155000" title="Call us"><i class="fa fa-phone circle-icon"></i>800 155 000</a>
+					<a href="mailto:info@proalu.cz" title="Write us"><i class="fa fa-envelope-o circle-icon"></i>info@proalu.cz</a>
+				</div>
+				<ul class="footer-menu">
+					<li><a href="#" title="Reference">Reference</a></li>
+					<li><a href="#" title="Ke stažení">Ke stažení</a></li>
+					<li><a href="#" title="Partneři">Partneři</a></li>
+				</ul>
+			</div>
+			<div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container cf">
+			<div class="powered-by">
+				<span>Designed and developed by</span>
+				<img src="img/creativin.png" alt="creativin"/>
+			</div>
+			<div class="copy">
+				<span>Copyright © Proalu, s.r.o. 2013-2015</span>
+			</div>
+		</div>
+	</div>
+</footer>
+<script>
+	var _gscq = _gscq || [];
+	_gscq.push(['language', navigator.language]);
+	(function () {
+		var gscw = document.createElement('script');
+		gscw.type = 'text/javascript';
+		gscw.async = true;
+		gscw.src = '//widgets.getsitecontrol.com/14658/script.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gscw, s);
+	})();
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+	.top-menu {
+		font-size: 1px;
+		line-height: 0;
+	}
+}
+.language select{
+	padding-right: 0;
+	background: none;
+}
+.language:after{
+	content: '';
+	position: absolute;
+	margin-top: 20px;
+	height: 35px;
+	width: 20px;
+	background: #ffffff url("../img/exp.png") 50% 50% no-repeat;
+	top: 0;
+	right: 20px;
+}
+@media (max-width: 440px){
+	.language:after{
+		right: 0;
+		margin-top: 15px;
+		height: 35px;
+	}
+}
